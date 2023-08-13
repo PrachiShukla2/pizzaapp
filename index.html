@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pizza purchase</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <script src="./scripts/controllers/product-controller.js" type="module"></script>
+    <!-- <script src="./scripts/services/append.js" type="module"></script> -->
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="alert alert-info">Paparizza</h1>
+        <div class="row">
+            <div class="col-8">
+                <div class="row" id="pizzacontainer"></div>
+            </div>
+            <div class="col-4">
+                Cart
+                <ul id="basket">
+                </ul>
+                <form><script src="https://checkout.razorpay.com/v1/payment-button.js" data-payment_button_id="pl_MLsiSJU9PDsB0T" async> </script> </form>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
